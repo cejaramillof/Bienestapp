@@ -35,7 +35,7 @@
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #555;
-    background-color: #D5D5D5;
+    background-color: #da3e03;
 }
 /* Caret */
 .navbar-default .navbar-nav > .dropdown > a .caret {
@@ -55,14 +55,14 @@
 }
 /* Mobile version */
 .navbar-default .navbar-toggle {
-    border-color: #DDD;
+    border-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #DDD;
+    background-color: #ff6200;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #CCC;
+    background-color: white;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {

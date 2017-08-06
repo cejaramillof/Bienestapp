@@ -31,6 +31,23 @@ html {
     }
 }
 
+@media(max-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: rgba(229, 95, 10, 0.8);
+        border-color: transparent;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: rgba(229, 95, 10, 1);
+        border-color: #da3e03;
+    }
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
